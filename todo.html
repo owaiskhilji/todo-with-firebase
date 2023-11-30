@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TODO APP</title>
+       <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="todo.css"></head>
+<body>
+<div class="container">
+    <div class="main">
+    <input type="search" id="inp">
+    <button id="add-btn" onclick="addtodo()">ADD TODO</button>
+</div   >    
+<div class="div-ul">
+    <ol id="ul">
+        
+    </ol>
+    <div class="div-btn">
+    <button id="dltall-btn" onclick="dltalbtn()">
+        Delete All    </button>
+    <!-- <button id="log-btn" onclick="logbtn()">Log out</button> -->
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
